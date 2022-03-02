@@ -52,7 +52,7 @@ form select {
 form .btn {
   display: inline-block;
   margin-top: 1rem;
-  background: #ed3833;
+  background: #7ba846;
   color: #fff;
   padding: 0.8rem 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -61,5 +61,5 @@ form .btn {
   transition: all 0.3s ease;
 }
 form .btn:hover {
-  background: #be2e29;
+  background: #658b3a;
 }
