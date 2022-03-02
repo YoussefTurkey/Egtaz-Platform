@@ -1,0 +1,2 @@
+# Egtaz-Platform
+Graduation Project
