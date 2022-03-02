@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egtaz Room</title>
+    <title>Egtaz Profile</title>
         <!-- Main CSS Files -->
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/room.css">
+    <link rel="stylesheet" href="../css/profile.css">
         <!-- Logo Icon -->
     <link rel="icon" href="../images/egtaz-logo2.png">
 </head>
@@ -44,7 +44,7 @@
         <div class="shortcut-links">
             <a href="index.html"><img src="../images/online-learning.png" alt="home"><p>Rooms</p></a>
             <a href="room.html"><img src="../images/exam0.png" alt="exam"><p>Exams</p></a>
-            <a href="profile.html"><img src="../images/cv.png" alt="profile"><p>Profile</p></a>
+            <a href=""><img src="../images/cv.png" alt="profile"><p>Profile</p></a>
             <a href=""><img src="../images/setting.png" alt="setting"><p>Settings</p></a>
             <a href=""><img src="../images/bell.png" alt="notification"><p>Notifications</p></a>
             <a href=""><img src="../images/new.png" alt="new"><p>What's New</p></a>
@@ -55,49 +55,42 @@
     </div>
 
         <!-- Main -->
-    <div class="container">
-        <div class="banner">
-            <img src="../images/trivial-exam.jpg" alt="trivial-exam" title="Trivial Exam">
+    <div class="container flex-form">
+        <div class="avatar">
+            <img src="../images/avatar.png" class="photo" alt="Avatar" class="avatar">
+            <img src="../images/edit.png" class="edit" alt="edit" title="change Photo">
         </div>
-        <div class="list-container">
-            <div class="vid-list">
-                <a href=""><img src="../images/exam1.jpg" alt="exam1" class="thumbnail"></a>
-                <div class="flex-dev">
-                    <img src="../images/lecturer.png" alt="lecturer">
-                    <div class="vid-info">
-                        <a href="">Computer Science Coures for Developers</a>
-                        <p>Dr. Ashraf Emad</p>
-                        <p>200 Students</p>
-                    </div>
-                </div>
+        
+        <form action="" method="post">
+            <div class="inputBox">
+                <h3>first Name</h3>
+                <input type="text" placeholder="enter first name">
             </div>
-
-            <div class="vid-list">
-                <a href=""><img src="../images/exam2.jpg" alt="exam2" class="thumbnail"></a>
-                <div class="flex-dev">
-                    <img src="../images/lecturer.png" alt="lecturer">
-                    <div class="vid-info">
-                        <a href="">Web Development Coures For Developers</a>
-                        <p>Dev. Youssef Hassan</p>
-                        <p>1500 Students</p>
-                    </div>
-                </div>
+            <div class="inputBox">
+                <h3>Last Name</h3>
+                <input type="text" placeholder="enter last name">
             </div>
-
-            <div class="vid-list">
-                <a href=""><img src="../images/exam3.jpg" alt="exam3" class="thumbnail"></a>
-                <div class="flex-dev">
-                    <img src="../images/lecturer.png" alt="lecturer">
-                    <div class="vid-info">
-                        <a href="">Web Development Coures For Developers</a>
-                        <p>Dev. Youssef Hassan</p>
-                        <p>1500 Students</p>
-                    </div>
-                </div>
+            <div class="inputBox">
+                <h3>email</h3>
+                <input type="email" placeholder="example@gmail.com">
             </div>
+            <div class="inputBox">
+                <h3>phone number</h3>
+                <input type="number" placeholder="+20_123_456_789">
+            </div>
+            <div class="inputBox">
+                <h3>counrty</h3>
+                <select>
+                    <option>Egypt</option>
+                    <option>USA</option>
+                </select>
+            </div>
+            <a href="index.html" class="btn">Save Changes</a>
+        </form>
 
     </div>
-    
+
+        <!-- Main Js Files -->
     <script src="../js/index.js"></script>
 </body>
 </html>
