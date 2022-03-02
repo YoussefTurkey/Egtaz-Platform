@@ -1,0 +1,65 @@
+.shortcut-links a:first-child,
+.shortcut-links a:nth-child(2) {
+  color: #5a5a5a;
+}
+.shortcut-links a:nth-child(3) {
+  color: #ed3833;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  position: relative;
+}
+.avatar .photo {
+  width: 200px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.avatar .photo:hover {
+  opacity: 0.2;
+}
+.avatar .edit {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 20%;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+form {
+  width: 100%;
+  margin-left: 5%;
+}
+form h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  color: #666;
+  text-transform: uppercase;
+}
+form input,
+form select {
+  width: 60%;
+  margin-bottom: 15px;
+  padding: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #333;
+}
+form .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #7ba846;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+form .btn:hover {
+  background: #658b3a;
+}

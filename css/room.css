@@ -1,0 +1,6 @@
+.shortcut-links a:first-child {
+  color: #5a5a5a;
+}
+.shortcut-links a:nth-child(2) {
+  color: #ed3833;
+}
