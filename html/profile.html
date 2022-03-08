@@ -7,6 +7,8 @@
     <title>Egtaz Profile</title>
         <!-- Unicode Link -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Bootstrap Files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- Main CSS Files -->
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/profile.css">
@@ -16,49 +18,49 @@
 <body data-theme="light">
 
         <!-- header -->
-        <header class="header center">
-            <div class="nav-left">
-                <img src="../images/menu.png" class="menu" alt="menu">
-                <img src="../images/logo.png" class="logo" alt="logo">
-            </div>
-            <div class="search__bar">
-                <i class="uil uil-search search__icon center"></i>
-                <input type="text" placeholder="Search anything" class="search__input">
-            </div>
-            <div class="header__buttons center">
-                <button class="change__theme-btn"><i class="uil uil-sun theme__icon"></i></button>
-                <div class="dropdown">
-                    <button class="header__btn center"><i class="uil uil-bell dropdown__icon"></i></button>
-                    <div class="dropdown__content notifictaions__dropdown">
-                        <h3 class="drop__down-title">Notifications</h3>
-                        <div class="dropdown__data">
-                            <a href="" class="drop__down-link"><b>New Exam Created By</b> Dr. Ahmed Zkaria</a>
-                            <a href="" class="drop__down-link"><b>You Were Added In Room By</b> Dr. Shymaa Ali</a>
-                            <a href="" class="drop__down-link"><b>You Were Sent Off Form Room By</b>Dr. Emad Gamal</a>
-                            <a href="" class="drop__down-link"><b>You Submitted The Exam</b>View Your Model Answer</a>
-                            <a href="notify.html" class="drop__down-link"><b>See More...</b></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="header__btn center"><i class="uil uil-user-circle dropdown__icon"></i></button>
-                    <div class="dropdown__content profile__dropdown">
-                        <h3 class="drop__down-title">Profile settings</h3>
-                        <div class="dropdown__data">
-                            <div>
-                                <a href="profile.html"><b>View Profile</b></a>
-                            </div>
-                            <div>
-                                <a href="set.html" class="drop__down-link"><i class="uil uil-setting"></i> <b>Settings</b></a>
-                            <a href="" class="drop__down-link"><i class="uil uil-file-plus-alt"></i> <b>What's New</b></a>
-                            <a href="" class="drop__down-link"><i class="uil uil-message"></i> <b>Contact Us</b></a>
-                            </div>
-                                <a href="choice.html" class="drop__down-link"><i class="uil uil-sign-out-alt"></i> <b>Logout</b></a>
-                        </div>
+    <header class="header center">
+        <div class="nav-left">
+            <img src="../images/menu.png" class="menu" alt="menu">
+            <img src="../images/new-egtaz-2.png" class="logo" alt="logo">
+        </div>
+        <div class="search__bar">
+            <i class="uil uil-search search__icon center"></i>
+            <input type="text" placeholder="Search anything" class="search__input">
+        </div>
+        <div class="header__buttons center">
+            <button class="change__theme-btn"><i class="uil uil-sun theme__icon"></i></button>
+            <div class="dropdown">
+                <button class="header__btn center"><i class="uil uil-bell dropdown__icon"></i></button>
+                <div class="dropdown__content notifictaions__dropdown">
+                    <h3 class="drop__down-title">Notifications</h3>
+                    <div class="dropdown__data">
+                        <a href="" class="drop__down-link"><b>New Exam Created By</b> Dr. Ahmed Zkaria</a>
+                        <a href="" class="drop__down-link"><b>You Were Added In Room By</b> Dr. Shymaa Ali</a>
+                        <a href="" class="drop__down-link"><b>You Were Sent Off Form Room By</b>Dr. Emad Gamal</a>
+                        <a href="" class="drop__down-link"><b>You Submitted The Exam</b>View Your Model Answer</a>
+                        <a href="notify.html" class="drop__down-link"><b>See More...</b></a>
                     </div>
                 </div>
             </div>
-        </header>
+            <div class="dropdown">
+                <button class="header__btn center"><i class="uil uil-user-circle dropdown__icon"></i></button>
+                <div class="dropdown__content profile__dropdown">
+                    <h3 class="drop__down-title">Profile settings</h3>
+                    <div class="dropdown__data">
+                        <div>
+                            <a href="profile.html"><b>View Profile</b></a>
+                        </div>
+                        <div>
+                            <a href="set.html" class="drop__down-link"><i class="uil uil-setting"></i> <b>Settings</b></a>
+                        <a href="" class="drop__down-link"><i class="uil uil-file-plus-alt"></i> <b>What's New</b></a>
+                        <a href="" class="drop__down-link"><i class="uil uil-message"></i> <b>Contact Us</b></a>
+                        </div>
+                            <a href="choice.html" class="drop__down-link"><i class="uil uil-sign-out-alt"></i> <b>Logout</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
         <!-- Side Bar -->
     <div class="sidebar">
@@ -76,41 +78,104 @@
     </div>
 
         <!-- Main -->
-    <div class="container flex-form">
-        <div class="avatar">
-            <img src="../images/avatar.png" class="photo" alt="Avatar" class="avatar">
-            <img src="../images/edit.png" class="edit" alt="edit" title="change Photo">
-        </div>
-        
-        <form action="" method="post">
-            <div class="inputBox">
-                <h3>first Name</h3>
-                <input type="text" placeholder="enter first name">
-            </div>
-            <div class="inputBox">
-                <h3>Last Name</h3>
-                <input type="text" placeholder="enter last name">
-            </div>
-            <div class="inputBox">
-                <h3>email</h3>
-                <input type="email" placeholder="example@gmail.com">
-            </div>
-            <div class="inputBox">
-                <h3>phone number</h3>
-                <input type="number" placeholder="+20_123_456_789">
-            </div>
-            <div class="inputBox">
-                <h3>counrty</h3>
-                <select>
-                    <option>Egypt</option>
-                    <option>USA</option>
-                </select>
-            </div>
-            <a href="../index.html" class="btn">Save Changes</a>
-        </form>
+    <div class="container-xl px-4 mt-4">
+        <!-- Account page navigation-->
+        <nav class="nav nav-borders">
+            <a class="nav-link active" href="profile.html">Profile</a>
+            <a class="nav-link" href="profile1.html">Security</a>
+            <a class="nav-link" href="profile2.html">Notifications</a>
+        </nav>
 
+        <hr class="mt-0 mb-4">
+
+        <div class="row">
+            <div class="col-xl-4 col-md-4 ">
+                <!-- Profile picture card-->
+                <div class="card mb-4 mb-xl-0">
+                    <div class="card-header">Profile Picture</div>
+                    <div class="card-body text-center">
+                        <!-- Profile picture image-->
+                        <img class="img-account-profile rounded-circle mb-2" src="http://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                        <!-- Profile picture help block-->
+                        <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+                        <!-- Profile picture upload button-->
+                        <button class="btn btn-primary" type="button">Upload new image</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8">
+                <!-- Account details card-->
+                <div class="card mb-4">
+                    <div class="card-header"><h3>Account Details</h3></div>
+                    <div class="card-body">
+                        <form>
+                            <!-- Form Group (username)-->
+                            <div class="mb-3">
+                                <label class="small mb-1" for="inputUsername">Username (how your name will appear to other users on the site)</label>
+                                <input class="form-control" id="inputUsername" type="text" placeholder="Enter your username">
+                            </div>
+                            <!-- Form Row-->
+                            <div class="row gx-3 mb-3">
+                                <!-- Form Group (first name)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputFirstName">First name</label>
+                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" >
+                                </div>
+                                <!-- Form Group (last name)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputLastName">Last name</label>
+                                    <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" >
+                                </div>
+                            </div>
+                            <!-- Form Row        -->
+                            <div class="row gx-3 mb-3">
+                                <!-- Form Group (organization name)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputOrgName">Your Status</label>
+                                    <select class="form-control" id="inputOrgName">
+                                        <option value="lecturer">Lecturer</option>
+                                        <option value="student">Student</option>
+                                    </select>
+                                </div>
+                                <!-- Form Group (location)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputLocation">Location</label>
+                                    <input class="form-control" id="inputLocation" type="text" placeholder="Enter your location" >
+                                </div>
+                            </div>
+                            <!-- Form Group (email address)-->
+                            <div class="mb-3">
+                                <label class="small mb-1" for="inputEmailAddress">Email address</label>
+                                <input class="form-control" id="inputEmailAddress" type="email" placeholder="example@gmail.com">
+                            </div>
+                            <!-- Form Row-->
+                            <div class="row gx-3 mb-3">
+                                <!-- Form Group (phone number)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputPhone">Phone number</label>
+                                    <input class="form-control" id="inputPhone" type="number" placeholder="+20-123-456-789">
+                                </div>
+                                <!-- Form Group (birthday)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputBirthday">Birthday</label>
+                                    <input class="form-control" id="inputBirthday" type="date" name="birthday" placeholder="Enter your birthday">
+                                </div>
+                            </div>
+                            <!-- Save changes button-->
+                            <a href="../index.html" role="button" class="btn btn-success" type="button">Save changes</a>
+                            
+                            <input type="reset" class="btn btn-outline-primary">
+    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+        <!-- Bootstrap Files -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Main Js Files -->
     <script src="../js/index.js"></script>
 </body>
