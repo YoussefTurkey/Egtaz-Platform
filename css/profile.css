@@ -101,6 +101,19 @@ label {
   color: #000000;
 }
 
+#display_image {
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 900px) {
   .container-xl {
     margin-left: 0%;
