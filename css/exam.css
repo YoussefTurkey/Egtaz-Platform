@@ -1,127 +1,284 @@
-.containerx {
-  margin: 25px 100px 0 100px;
+/* Importing google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  background: #007bff;
   position: relative;
 }
 
-.containerx p {
+/* Info Box */
+.info_box {
+  width: 540px;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  box-shadow: 0px 4px 8px 0 rgba(0 0 0 / 0.2), 0px 6px 20px 0 rgba(0 0 0 / 0.19);
+}
+
+.info_box .info_title {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 20px;
   font-weight: 600;
 }
 
-.containerx p span {
-  color: #444;
+.info_box .info_list {
+  padding: 15px 35px;
 }
 
-hr {
-  margin: 10px 0;
+.info_box .info_list .info {
+  margin: 5px 0;
+  font-size: 17px;
 }
 
-.instract {
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  margin-top: 15px;
-  border: 1px solid #444;
-  border-radius: 9px;
-  padding: 15px;
+.info_box .info_list .info span {
+  font-weight: 600;
+  color: #007bff;
 }
 
-.instract h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.instract .inst {
-  list-style-type: disc;
-}
-
-.quest-cont {
-  margin-top: 250px;
-}
-
-.quest {
-  margin-top: 20px;
-}
-
-.quest h3 span {
-  color: #444;
-}
-
-.q {
-  margin-top: 15px;
-}
-
-.q .inp {
+.info_box .buttons {
+  height: 60px;
   display: flex;
-  flex-direction: column;
-  position: relative;
-  margin-top: 20px;
-  margin-left: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 1px solid lightgray;
 }
 
-.q .inp input {
+.info_box .buttons button {
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  border-radius: 3.5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
+  border: 1px solid #007bff;
+  transition: all 0.3s ease;
 }
 
-.q .inp label {
-  padding: 5px;
-  margin-top: -20px;
-  margin-left: 15px;
-  cursor: pointer;
+.buttons button.quit {
+  color: #007bff;
+}
+.buttons button.quit:hover {
+  color: #fff;
+  background: #007bff;
 }
 
-.quest .inp textarea {
-  position: relative;
+.buttons button.restart {
+  color: #fff;
+  background: #007bff;
+}
+.buttons button.restart:hover {
+  background: #0263ca;
 }
 
-.quest .inp textarea::placeholder {
+/* Quiz Box */
+.quiz_box {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%) scale(0.9);
+  box-shadow: 0px 4px 8px 0 rgba(0 0 0 / 0.2), 0px 6px 20px 0 rgba(0 0 0 / 0.19);
+  margin-top: 100px;
+}
+
+.quiz_box header {
+  position: relative;
+  z-index: 99;
+  height: 70px;
+  padding: 0 30px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 3px 5px 1px rgba(0 0 0 / 0.1);
+}
+
+.quiz_box header .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quiz_box header .timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+  height: 45px;
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+.quiz_box header .timer .time_text {
+  font-weight: 400;
+  font-size: 17px;
+  user-select: none;
+}
+
+.quiz_box header .timer .time_sec {
+  font-size: 18px;
+  font-weight: 500;
+  background: #343a40;
+  height: 30px;
+  width: 45px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #343a40;
+  user-select: none;
+}
+
+.quiz_box section {
+  padding: 25px 30px 20px 30px;
+}
+
+.quiz_box section .q .heads {
+  font-size: 20px;
+  color: #343a40be;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.quiz_box section .q .heads:first-child {
+  padding: 0;
+}
+
+.quiz_box section .q {
+  border-top: 1px solid #343a40be;
+}
+
+.quiz_box section .q:first-child {
+  border-top: none;
+}
+
+.quiz_box section .q .heads span {
+  color: #007bff;
+  font-size: 20px;
+}
+
+.quiz_box section .que_text {
   font-size: 25px;
+  font-weight: 600;
 }
 
-form {
-  padding-bottom: 20px;
+.quiz_box section .option_list {
+  padding: 20px 0;
+  display: block;
 }
 
-select {
-  margin-left: 10px;
-}
-
-input,
-label {
+.quiz_box section .option_list .option {
+  background: aliceblue;
+  border: 1px solid #84c5fe;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.quiz_box section .option_list .option:hover {
+  color: #004085;
+  background: #cce5ff;
+  border-color: #b8daff;
 }
 
-.alarm {
-  border: 2px solid #444;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: relative;
+.option_list .option:last-child {
+  margin-bottom: 0;
+}
+
+.option_list .inp_option textarea {
+  background: aliceblue;
+  border: 1px solid #84c5fe;
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px 15px;
+  font-size: 17px;
+}
+
+.option_list .inp_option input {
+  background: aliceblue;
+  border: 1px solid #84c5fe;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 20%;
   cursor: pointer;
-  left: 95%;
+  margin-bottom: 20px;
 }
 
-.alarm i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 35px;
+.quiz_box footer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
 }
 
-@media (max-width: 989px) {
-  .instract {
-    width: 100%;
-  }
+.quiz_box footer .tool_que span {
+  display: flex;
+  user-select: none;
+}
 
-  .quest-cont {
-    margin-top: 350px;
-  }
+/* Quiz Box Footer */
+footer .tool_que span p {
+  font-weight: 500;
+  padding: 0 5px;
+}
 
-  #file {
-    width: 50%;
+footer .tool_que span p:first-child {
+  padding-left: 0px;
+}
+
+footer .next_btn {
+  height: 40px;
+  padding: 0 13px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer .next_btn:hover {
+  background: #0263ca;
+}
+
+@media (max-width: 767px) {
+  .option_list .inp_option input {
+    width: 70%;
+  }
+  .info_box {
+    width: 70%;
+  }
+  .quiz_box {
+    margin-top: 200px;
   }
 }
