@@ -17,152 +17,295 @@
 </head>
 <body>
 
-        <!-- Main -->
-    <div class="containerx">
-        <div class="exam-details">
-            <p>Dr: <span>Ahmed Ali</span></p>
-            <p>Time Allowed: <span>2 hours</span></p>
-            <p>Total Marks: <span>100</span></p>
-            <p>Subject: <span>Algorithms</span></p>
-        </div>
-        <hr>
-        <div class="instract">
-            <h2>Instructions</h2>
-            <ul class="inst">
-                <li>Only one answer is allowed in MCQ</li>
-                <li>Only one answer is allowed in T o F questions</li>
-                <li>Only one answer is allowed in Essay questions</li>
-            </ul>
+        <!-- Info Box -->
+    <div class="info_box">
+
+        <div class="info_title">
+            <span>Some Rules of this Quiz</span>
         </div>
 
-        <div class="alarm" title="time">
-            <i class="uil uil-clock"></i>
+        <div class="info_list">
+            <div class="info"><span>1.</span> You will have only <span>1:30 minutes</span> per the exam.</div>
+            <div class="info"><span>2.</span> The total degree of the exam is <span>100 points</span>.</div>
+            <div class="info"><span>3.</span> One you select your answer, you can't reselect.</div>
+            <div class="info"><span>4.</span> You can't exit from the Quiz while you're playing.</div>
+            <div class="info"><span>5.</span> You'll get points on the basis of your correct answers.</div>
         </div>
-
-        <form class="quest-cont was-validated">
-            <div class="quest">
-                <h3>Question 1 : <span>Choose the correct answer</span></h3>
-                <div class="q">
-                    <label class="form-label"><p><span>1.</span> Question...</p></label>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q1" name="radio-stacked1" required>
-                        <label class="form-check-label" for="q1">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q2" name="radio-stacked1" required>
-                        <label class="form-check-label" for="q2">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q3" name="radio-stacked1" required>
-                        <label class="form-check-label" for="q3">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q4" name="radio-stacked1" required>
-                        <label class="form-check-label" for="q4">Answer</label>
-                    </div>
-                </div>
-                <div class="q">
-                    <label class="form-label"><p><span>2.</span> Question...</p></label>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q11" name="radio-stacked2" required>
-                        <label class="form-check-label" for="q11">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q22" name="radio-stacked2" required>
-                        <label class="form-check-label" for="q22">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q33" name="radio-stacked2" required>
-                        <label class="form-check-label" for="q33">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q44" name="radio-stacked2" required>
-                        <label class="form-check-label" for="q44">Answer</label>
-                    </div>
-                </div>
-                <div class="q">
-                    <label class="form-label"><p><span>3.</span> Question...</p></label>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q111" name="radio-stacked3" required>
-                        <label class="form-check-label" for="q111">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q222" name="radio-stacked3" required>
-                        <label class="form-check-label" for="q222">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q333" name="radio-stacked3" required>
-                        <label class="form-check-label" for="q333">Answer</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q444" name="radio-stacked3" required>
-                        <label class="form-check-label" for="q444">Answer</label>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="quest">
-                <h3>Question 2 : <span>True or False</span></h3>
-                <div class="q">
-                    <label class="form-label"><p><span>1.</span> Question...</p></label>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q12" name="radio-stacked4" required>
-                        <label class="form-check-label" for="q12">True</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q21" name="radio-stacked4" required>
-                        <label class="form-check-label" for="q21">False</label>
-                    </div>
-                </div>
-                <div class="q">
-                    <label class="form-label"><p><span>2.</span> Question...</p></label>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q120" name="radio-stacked5" required>
-                        <label class="form-check-label" for="q120">True</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" id="q021" name="radio-stacked5" required>
-                        <label class="form-check-label" for="q021">Fales</label>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="quest">
-                <h3>Question 3 : <span>Answer the following questions</span></h3>
-                <div class="q">
-                    <label for="validationTextarea" class="form-label"><p><span>1.</span> Question...</p></label>
-                    <div class="inp">
-                        <textarea class="form-control is-invalid" rows="5" id="validationTextarea" placeholder="Put Your Answer Here" required></textarea>
-                    </div>
-                </div>
-                <div class="q">
-                    <label class="form-label"><p><span>2.</span> Question...</p></label>
-                    <div class="mb-3">
-                        <input type="file" class="form-control  w-75" aria-label="file example" required>
-                        <div class="invalid-feedback">file must be less than 3 MB</div>
-                    </div>
-                    <div class="mb-3 row">
-                        <p class="invalid-feedback col-md-6">Allowed file types: ---</p>
-                        <select class="form-select col-md-6 w-50" required aria-label="select example">
-                            <option value="" selected disabled>Select type of your file</option>
-                            <option value="0">.docx</option>
-                            <option value="1">.ppt</option>
-                            <option value="2">.xlsx</option>
-                            <option value="3">.png</option>
-                            <option value="4">.jpg</option>
-                            <option value="5">.mp3</option>
-                            <option value="6">.mp4</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-3">
-                <a role="button" href="../index.html" class="btn btn-success w-100" type="submit">Submit</a>
-              </div>
-        </form>
 
     </div>
+
+
+        <!-- Quiz Box -->
+    <form class="quiz_box" action="" method="post">
+
+        <header>
+            <div class="title">Web Development Exam</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="time_sec">1:30</div>
+            </div>
+        </header>
+
+        <section>
+
+            <div class="q">
+                <h2 class="heads"><span>MCQ</span> Questions:</h2>
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What does HTML stand for?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>Hyper Text Preprocessor</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Markup Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Multiple Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Tool Multi Language</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What does PHP stand for?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>Hyper Text Preprocessor</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Markup Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Multiple Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Tool Multi Language</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What does CSS stand for?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>Hyper Text Preprocessor</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Markup Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Multiple Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Cascading Style Sheets</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What does HTTP stand for?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>Hyper Text Preprocessor</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Markup Language</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Text Transfer Protocal</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>Hyper Tool Multi Language</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="q">
+                <h2 class="heads"><span>True & False</span> Questions:</h2>
+                <div class="quest">
+                    <div class="que_text">
+                        <span>Is HTML stand for "Hyper Text Preprocessor"?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>True</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>False</span>
+                        </div>
+        
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>Is PHP stand for "Hyper Text Preprocessor"?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>True</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>False</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>Is CSS stand for "Hyper Text Multiple Language"?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>True</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>False</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>Is HTTP stand for "Hyper Text Markup Language"?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="option">
+                            <span>True</span>
+                        </div>
+        
+                        <div class="option">
+                            <span>False</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="q">
+                <h2 class="heads"><span>Essay</span> Questions:</h2>
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What do you know about "SEO"?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="inp_option">
+                            <textarea name="" id="" rows="5"></textarea>
+                        </div>
+        
+                    </div>
+                </div>
+    
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What is FTP stand for?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="inp_option">
+                            <textarea name="" id="" rows="5"></textarea>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="quest">
+                    <div class="que_text">
+                        <span>What is "API"?</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="inp_option">
+                            <textarea name="" id="" rows="5"></textarea>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="q">
+                <h2 class="heads"><span>Drawing</span> Questions:</h2>
+                <div class="quest">
+                    <div class="que_text">
+                        <span>Draw the roadmap of React.js to start</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="inp_option">
+                            <input type="file">
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="q">
+                <h2 class="heads"><span>Coding</span> Questions:</h2>
+                <div class="quest">
+                    <div class="que_text">
+                        <span>Create a calculator using "switch" in java</span>
+                    </div>
+                    <div class="option_list">
+        
+                        <div class="inp_option">
+                            <textarea name="" id="" rows="5"></textarea>
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+            <!-- Quiz Box Footer -->
+        <footer>
+            <div class="tool_que">
+                <span>
+                    Dr. Khaled Esmail
+                </span>
+            </div>
+
+            <button class="next_btn">Submit</button>
+        </footer>
+
+    </form>
 
     
         <!-- Bootstrap Files -->
