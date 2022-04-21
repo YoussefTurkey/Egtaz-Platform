@@ -222,7 +222,7 @@ body.dark-theme {
 }
 
 .button__header {
-  display: none;
+  display: block;
 }
 
 .button-link {
