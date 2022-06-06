@@ -1,4 +1,4 @@
-# Egtaz-Platform
+# :sparkles: Egtaz-Platform
 :computer: Graduation Project
 > This Project was build from scratch using *HTML5, CSS3, JavaScript, Bootstrap*
 > It's complete **Exam dashboard**
