@@ -42,8 +42,8 @@
 
  
 **You Can View The Website [Form Here](https://youssefturkey.github.io/Egtaz-Platform/)**
-**You Can Contact Me On [Gmail](youssef.turkey11@gmail.com)**
-**You Can View Another Works [From here](https://www.behance.net/YouTurkey11)
+**, you Can Contact Me On [Gmail](youssef.turkey11@gmail.com)**
+**, you Can View Another Works [From here](https://www.behance.net/YouTurkey11)**
 
 ###### *Thanks alot* :wave:
  
