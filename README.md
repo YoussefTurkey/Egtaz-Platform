@@ -18,7 +18,6 @@
   #### Sign and Login Pages
 ![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_01.PNG)
 ![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_02.PNG)
-![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_03.PNG)
 ![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_01.PNG)
 
   #### Dashboard Pages
@@ -40,6 +39,7 @@
 ![Rooms pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_10.PNG)
 ![Creating rooms pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_11.PNG)
 ![Joining rooms pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_12.PNG)
+![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_03.PNG)
 
  
 **You Can View The Website [Form Here](https://youssefturkey.github.io/Egtaz-Platform/)**
