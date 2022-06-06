@@ -18,7 +18,6 @@
   #### Sign and Login Pages
 ![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_01.PNG)
 ![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_02.PNG)
-![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_01.PNG)
 
   #### Dashboard Pages
 ![Dashboard pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_1.PNG)
