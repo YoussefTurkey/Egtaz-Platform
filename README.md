@@ -41,9 +41,9 @@
 ![Sign&Login pages](https://github.com/YoussefTurkey/Egtaz-Platform/blob/main/assets/screens/screen_03.PNG)
 
  
-**You Can View The Website [Form Here](https://youssefturkey.github.io/Egtaz-Platform/)**
-**, you Can Contact Me On [Gmail](youssef.turkey11@gmail.com)**
-**, you Can View Another Works [From here](https://www.behance.net/YouTurkey11)**
+**You can view the website [form here](https://youssefturkey.github.io/Egtaz-Platform/)**
+**, you can contact me on [gmail](youssef.turkey11@gmail.com)**
+**, you can view another works [from here](https://www.behance.net/YouTurkey11)**
 
 ###### *Thanks alot* :wave:
  
