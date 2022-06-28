@@ -19,6 +19,10 @@
   .shortcut-links a:nth-child(5) {
     color: #ed3833;
   }
+
+  body{
+    background-color: var(--body-color);
+  }
   
   .note {
     display: flex;

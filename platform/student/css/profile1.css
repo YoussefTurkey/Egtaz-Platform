@@ -62,7 +62,11 @@
     border-bottom: 1px solid rgba(33, 40, 50, 0.125);
   }
   .card-header h4 {
-    color: var(--text-color);
+    color: var(--scroll-color);
+  }
+  h3{
+    color: var(--scroll-color);
+
   }
   .form-control,
   .dataTable-input {
