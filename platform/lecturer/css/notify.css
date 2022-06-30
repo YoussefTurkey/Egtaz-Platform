@@ -1,54 +1,86 @@
 :root {
-    --body-color: #fff;
-    --container-color: #eee;
-    --container-color-alt: #ddd;
-    --border-color-light: #cfcccc;
-    --scroll-color: #888091;
-    --dropdown-shadow: #b6a2a2;
-    --text-color: #000;
-    --placeholder-color: #666;
-    --header-shadow: #f3e7f3;
-  }
-  
-  .shortcut-links a:first-child,
-  .shortcut-links a:nth-child(2),
-  .shortcut-links a:nth-child(3),
-  .shortcut-links a:nth-child(4) {
-    color: var(--text-color);
-  }
-  .shortcut-links a:nth-child(5) {
-    color: #ed3833;
-  }
+  --body-color: #fff;
+  --container-color: #eee;
+  --container-color-alt: #ddd;
+  --border-color-light: #cfcccc;
+  --scroll-color: #888091;
+  --dropdown-shadow: #b6a2a2;
+  --text-color: #000;
+  --placeholder-color: #666;
+  --header-shadow: #f3e7f3;
+  /*========== Colors ==========*/
+  --hue: 45;
+  --sat: 98%;
+  --first-color: hsl(var(--hue), var(--sat), 60%);
+  --first-color-light: hsl(var(--hue), var(--sat), 85%);
+  --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
+  --first-color-alt: hsl(var(--hue), var(--sat), 53%);
+  --title-color: hsl(var(--hue), 4%, 15%);
+  --text-color: hsl(var(--hue), 4%, 35%);
+  --text-color-light: hsl(var(--hue), 4%, 65%);
+  --body-color: hsl(var(--hue), 0%, 100%);
+  --container-color: #FFF;
+  --scroll-bar-color: hsl(var(--hue), 4%, 85%);
+  --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+}
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: .5s;
+}
+/*========== Variables Dark theme ==========*/
+body.dark-theme {
+--first-color-light: hsl(var(--hue), var(--sat), 75%);
+--title-color: hsl(var(--hue), 4%, 95%);
+--text-color: hsl(var(--hue), 4%, 80%);
+--body-color: hsl(var(--hue), 8%, 13%);
+--container-color: hsl(var(--hue), 8%, 16%);
+--scroll-bar-color: hsl(var(--hue), 4%, 32%);
+--scroll-thumb-color: hsl(var(--hue), 4%, 24%);
+--background: hsl(var(--hue), 8%, 13%);
+--light-bg:hsl(var(--hue), 1%, 60%);
+}
+/*========== Button Dark/Light ==========*/
+.change-theme {
+color: var(--title-color);
+font-size: 1.8rem;
+cursor: pointer;
+border: none;
+background-color: transparent;
+}
 
-  body{
-    background-color: var(--body-color);
-  }
+.shortcut-links a:first-child,
+.shortcut-links a:nth-child(2),
+.shortcut-links a:nth-child(3),
+.shortcut-links a:nth-child(4) {
+  color: var(--text-color);
+}
+.shortcut-links a:nth-child(5) {
+  color: #ed3833;
+}
+
+.note {
+  display: flex;
+  justify-content: flex-start;
+  background: var(--container-color);
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 8px 13px rgba(0,0,0,0.15);
+
   
-  .note {
-    display: flex;
-    justify-content: flex-start;
-    background: var(--container-color-alt);
-    padding: 15px;
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 9px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .note:hover {
-    background: var(--container-color);
-  }
-  
-  .note .imgs {
-    margin-right: 15px;
-  }
-  
-  .note .txt p {
-    color: var(--text-color);
-  }
-  
-  .note .txt span {
-    color: #888091;
-  }
-  
+}
+.note .imgs {
+  margin-right: 15px;
+}
+
+.note .txt p {
+  color: var(--text-color);
+}
+
+.note .txt span {
+  color: #888091;
+}

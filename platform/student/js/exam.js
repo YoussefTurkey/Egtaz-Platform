@@ -1,7 +1,12 @@
 const openModalBtn = document.querySelectorAll('[data-modal-target]');
 const closeModalBtn = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
+let hideBtn = document.getElementById('hide');
+let timerDiv = document.getElementById('timer');
 
+hideBtn.addEventListener('click',()=>{
+    timerDiv.classList.toggle('disapper');
+})
 
 openModalBtn.forEach(button =>{
     button.addEventListener('click', ()=>{

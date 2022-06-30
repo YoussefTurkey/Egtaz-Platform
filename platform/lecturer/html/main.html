@@ -21,11 +21,11 @@
             <img src="../images/new-egtaz-2.png" class="logo" alt="logo">
         </div>
         <div class="search__bar">
-            <i class="uil uil-search search__icon center"></i>
-            <input type="text" placeholder="Search anything" class="search__input" id="srch" onkeyup="search()">
+            <i class="uil uil-search search__icon center" id="searchBtn"></i>
+            <input type="search" placeholder="Search on rooms...." class="search__input" id="srch" onkeyup="searchRoom(this.value)">
         </div>
         <div class="header__buttons center">
-            <button class="change__theme-btn"><i class="uil uil-sun theme__icon"></i></button>
+            <button class='change-theme' id="theme-button"><i class="uil uil-sun theme__icon"></i></button>
             <div class="dropdown">
                 <button class="header__btn center"><i class="uil uil-bell dropdown__icon"></i></button>
                 <div class="dropdown__content notifictaions__dropdown">
